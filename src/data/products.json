@@ -1,0 +1,25 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Modern Sofa",
+            "description": "A sleek and comfortable modern sofa perfect for any living room.",
+            "price": 799.99,
+            "image": "/images/sofa.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Dining Table Set",
+            "description": "A stylish dining table set that seats six people comfortably.",
+            "price": 1199.99,
+            "image": "/images/dining_table.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Office Chair",
+            "description": "An ergonomic office chair designed for maximum comfort during long work hours.",
+            "price": 199.99,
+            "image": "/images/office_chair.jpg"
+        }
+    ]
+}
