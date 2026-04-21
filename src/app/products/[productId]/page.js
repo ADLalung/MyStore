@@ -1,5 +1,13 @@
 import NotFound from "../../not-found.js";
 
+export async function generateStaticParams() {
+  return [
+    { productId: 'sofa-01' },
+    { productId: 'table-02' },
+    { productId: 'chair-03' }
+  ];
+}
+
 export default async function ProductPage({ params }) {
     const productId = ( await params).productId;
     if (parseInt(productId)>150){
