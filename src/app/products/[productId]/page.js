@@ -2,9 +2,12 @@ import NotFound from "../../not-found.js";
 
 export async function generateStaticParams() {
   return [
-    { productId: 'sofa-01' },
-    { productId: 'table-02' },
-    { productId: 'chair-03' }
+    { productId: 1 },
+    { productId: 2 },
+    { productId: 3 },
+    { productId: 4 },
+    { productId: 5 },
+    { productId: 6 },
   ];
 }
 
