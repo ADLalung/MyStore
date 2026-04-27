@@ -12,7 +12,7 @@ export async function generateStaticParams() {
 }
 
 export default async function ProductPage({ params }) {
-    const productId = ( await params).productId;
+    const productId = string(( await params).productId);
     if (parseInt(productId)>150){
         return <NotFound />
     }
