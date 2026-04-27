@@ -2,13 +2,13 @@ import NotFound from "../../not-found.js";
 
 export async function generateStaticParams() {
   return [
-    { productId: 1 },
-    { productId: 2 },
-    { productId: 3 },
-    { productId: 4 },
-    { productId: 5 },
-    { productId: 6 },
-  ];
+    { productId: "1" },
+    { productId: "2" },
+    { productId: "3" },
+    { productId: "4" },
+    { productId: "5" },
+    { productId: "6" },
+    ];
 }
 
 export default async function ProductPage({ params }) {
